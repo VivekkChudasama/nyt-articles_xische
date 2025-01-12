@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/pnpm-lock.yaml
+/package-lock.json
+/yarn.lock
+
+# Build output
+/dist/
+/build/
+/out/
+/.esbuild/
+/.vite/
+
+# Vite and other tools' cache
+/.vite/
+.vscode/
+
+# Environment files
+.env
+.env.*.local
+
+# IDE/editor folders
+/.idea/
+/.vscode/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by tools like Jest or Cypress
+/coverage/
+/cypress/screenshots/
+/cypress/videos/
+
+# Test and coverage reports (if generated in the project root)
+test-coverage/
+
+# Optional: ignore the build artifacts (for production deployment)
+*.tgz
+
+# Ignore files for specific environments
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Ignore build artifacts (for Vite production build)
+build/
+.DS_Store
